@@ -1,8 +1,7 @@
 # simple interactive discord bot
  a multillingual discord bot which can converse in english and hindi in hinglish script.
 
-markdown
-# Multilingual Discord Bot
+```# Multilingual Discord Bot
 
 ## Description
 This is a conversational Discord bot that responds to greetings in both English and Hindi (Hinglish script).
@@ -25,11 +24,12 @@ The project is written in JavaScript using Discord.js.
 ## Hiding Secrets
 1. Create a `.env` file.
 2. Add your Discord bot token and client secret.
-   
-   BOT_TOKEN=your_bot_token_here
-   CLIENT_SECRET=your_client_secret_here
-   
+```
 
+BOT_TOKEN=your_bot_token_here
+CLIENT_SECRET=your_client_secret_here
+
+```
 ## Contributing
 - Open issues to report bugs or suggest features.
 - Create pull requests to contribute to the project.
@@ -47,7 +47,6 @@ You can deploy this bot to a server. Configure it to run continuously using [you
 The `package.json` file lists all the project's dependencies.
 
 ## Example .env File
-plaintext
+```plaintext
 BOT_TOKEN=your_bot_token_here
-CLIENT_SECRET=your_client_secret_here
-```
+CLIENT_SECRET=your_client_secret_here```
